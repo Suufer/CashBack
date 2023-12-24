@@ -12,7 +12,6 @@ public class CashbackHackServiceTest {
         Assert.assertEquals(result, 300);
     }
 
-    // Добавьте еще тесты по необходимости
 }
 
 
