@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Для TestNG
+    testImplementation 'org.testng:testng:7.1.0'
+
+    // Для JUnit4
+    testImplementation 'junit:junit:4.13'
+}
+
+test {
+    // Для TestNG
+    useTestNG()
+
+}
