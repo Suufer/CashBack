@@ -1,6 +1,7 @@
 package ru.netology.service;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class CashbackHackServiceTestJUnit {
@@ -12,7 +13,11 @@ public class CashbackHackServiceTestJUnit {
         Assert.assertEquals(300, result);
     }
 
+    @Test
+    @Ignore
+    public void testSomeDefect() {
+        Assert.fail("Тест временно отключен из-за дефекта");
+    }
 }
-
 
 
