@@ -9,9 +9,11 @@ public class CashbackHackServiceTest {
     public void testRemain() {
         CashbackHackService service = new CashbackHackService();
         int result = service.remain(700);
-        Assert.assertEquals(300, result);
+        Assert.assertEquals(result, 300);
     }
 
-
+    // Добавьте еще тесты по необходимости
 }
+
+
 
